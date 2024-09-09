@@ -35,14 +35,14 @@ A collection of Swift utilities and extensions for building scalable, maintainab
 ### Debouncer
 The `Debouncer` class provides a debouncing mechanism to prevent excessive triggering of actions over a short period.
 
-- **File**: `Sources/Viothun/Combine/Debouncer.swift`
+- **File**: [`Sources/Viothun/Combine/Debouncer.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/Combine/Debouncer.swift)
 - **Details**:
   - Debounces input and delays output until the input stops changing for a specified delay.
 
 ### Publisher Extensions
 These extensions provide various utilities for `Combine.Publisher`.
 
-- **File**: `Sources/Viothun/Combine/Publishers+Extensions.swift`
+- **File**: [`Sources/Viothun/Combine/Publishers+Extensions.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/Combine/Publishers+Extensions.swift)
 - **Available Functions**:
   - `any`: Type-erases the publisher to `AnyPublisher`.
   - `mapToVoid`: Maps the output to `Void`.
@@ -58,7 +58,7 @@ These extensions provide various utilities for `Combine.Publisher`.
 ### DebugLogger
 `DebugLogger` is a customizable logging system that supports multiple logging contexts, log levels, and location information.
 
-- **File**: `Sources/Viothun/Services/DebugLogger.swift`
+- **File**: [`Sources/Viothun/Services/DebugLogger.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/Services/DebugLogger.swift)
 - **Available Functions**:
   - `enable(_:)`: Enables logging for a specific context.
   - `disable(_:)`: Disables logging for a specific context.
@@ -73,28 +73,28 @@ These extensions provide various utilities for `Combine.Publisher`.
 ### Debounced Button
 A custom SwiftUI button view that triggers an action with a debounce interval.
 
-- **File**: `Sources/Viothun/SwiftUI/DebouncedButton.swift`
+- **File**: [`Sources/Viothun/SwiftUI/DebouncedButton.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/SwiftUI/DebouncedButton.swift)
 - **Available Functions**:
   - `DebouncedButton`: A button view that prevents excessive button taps by debouncing.
 
 ### View+If
 This extension applies a transformation to a view conditionally, based on a boolean value.
 
-- **File**: `Sources/Viothun/SwiftUI/View+If.swift`
+- **File**: [`Sources/Viothun/SwiftUI/View+If.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/SwiftUI/View+If.swift)
 - **Available Functions**:
   - `if(_:transform:)`: Conditionally applies a transformation to a view.
 
 ### View+OnRotate
 This extension detects device orientation changes and triggers a specified action.
 
-- **File**: `Sources/Viothun/SwiftUI/View+OnRotate.swift`
+- **File**: [`Sources/Viothun/SwiftUI/View+OnRotate.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/SwiftUI/View+OnRotate.swift)
 - **Available Functions**:
   - `onRotate(perform:)`: Executes an action when the device orientation changes.
 
 ### ViewModifiers+OnFirstViewAppear
 Executes an action only when the view appears for the first time.
 
-- **File**: `Sources/Viothun/SwiftUI/ViewModifiers+OnFirstViewAppear.swift`
+- **File**: [`Sources/Viothun/SwiftUI/ViewModifiers+OnFirstViewAppear.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/SwiftUI/ViewModifiers+OnFirstViewAppear.swift)
 - **Available Functions**:
   - `onFirstViewAppear(perform:)`: Executes an action the first time a view appears.
 
@@ -105,14 +105,14 @@ Executes an action only when the view appears for the first time.
 ### Comparable+Extensions
 Provides a method to clamp values within a range.
 
-- **File**: `Sources/Viothun/UIKit/Comparable+Extensions.swift`
+- **File**: [`Sources/Viothun/UIKit/Comparable+Extensions.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/UIKit/Comparable+Extensions.swift)
 - **Available Functions**:
   - `clamp(to:)`: Clamps a value to a specified range.
 
 ### Date+Extensions
 Utilities for manipulating and formatting `Date` objects.
 
-- **File**: `Sources/Viothun/UIKit/Date+Extensions.swift`
+- **File**: [`Sources/Viothun/UIKit/Date+Extensions.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/UIKit/Date+Extensions.swift)
 - **Available Functions**:
   - `adding100Years()`: Adds 100 years to the current date.
   - `addMoreTime(component:value:)`: Adds a specified time component and value to the current date.
@@ -122,7 +122,7 @@ Utilities for manipulating and formatting `Date` objects.
 ### Optional+Extensions
 Provides default values for `Optional` types.
 
-- **File**: `Sources/Viothun/UIKit/Optional+Extensions.swift`
+- **File**: [`Sources/Viothun/UIKit/Optional+Extensions.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/UIKit/Optional+Extensions.swift)
 - **Available Functions**:
   - `orBlank`: Returns the wrapped string or an empty string.
   - `orBlackHex`: Returns the wrapped string or a default black hex value.
@@ -132,14 +132,14 @@ Provides default values for `Optional` types.
 ### RandomAccessCollection+Extensions
 Safely access elements in a `RandomAccessCollection` by index, returning `nil` if out of bounds.
 
-- **File**: `Sources/Viothun/UIKit/RandomAccessCollection+Extensions.swift`
+- **File**: [`Sources/Viothun/UIKit/RandomAccessCollection+Extensions.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/UIKit/RandomAccessCollection+Extensions.swift)
 - **Available Functions**:
   - `subscript(safe:)`: Safely accesses an element at a specified index.
 
 ### Sequence+Extensions
 Utilities for working with sequences, such as updating, sorting, and removing duplicates.
 
-- **File**: `Sources/Viothun/UIKit/Sequence+Extensions.swift`
+- **File**: [`Sources/Viothun/UIKit/Sequence+Extensions.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/UIKit/Sequence+Extensions.swift)
 - **Available Functions**:
   - `updating(with:)`: Updates a sequence with a new sequence of elements.
   - `sorted(using:)`: Sorts a sequence using sort descriptors.
@@ -149,7 +149,7 @@ Utilities for working with sequences, such as updating, sorting, and removing du
 ### String+Extensions
 Utilities for manipulating strings, including date conversions and validation.
 
-- **File**: `Sources/Viothun/UIKit/String+Extensions.swift`
+- **File**: [`Sources/Viothun/UIKit/String+Extensions.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/UIKit/String+Extensions.swift)
 - **Available Functions**:
   - `toDate`: Converts a string to a `Date`.
   - `isValidEmailAddress`: Returns `true` if the string is a valid email address.
@@ -158,7 +158,7 @@ Utilities for manipulating strings, including date conversions and validation.
 ### UIColor+Extensions
 Utilities for creating `UIColor` objects from hex strings and RGB values.
 
-- **File**: `Sources/Viothun/UIKit/UIColor+Extensions.swift`
+- **File**: [`Sources/Viothun/UIKit/UIColor+Extensions.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/UIKit/UIColor+Extensions.swift)
 - **Available Functions**:
   - `init(hexString:)`: Initializes a `UIColor` from a hex string.
   - `init(rgbValue:)`: Initializes a `UIColor` from an RGB integer value.
@@ -167,27 +167,4 @@ Utilities for creating `UIColor` objects from hex strings and RGB values.
 ### UIDevice+Extensions
 Utility properties to check the type of device (iPhone, iPad, etc.).
 
-- **File**: `Sources/Viothun/UIKit/UIDevice+Extensions.swift`
-- **Available Functions**:
-  - `isPhone`: Returns `true` if the device is an iPhone.
-  - `isPad`: Returns `true` if the device is an iPad.
-  - `isTV`: Returns `true` if the device is an Apple TV.
-  - `isCarPlay`: Returns `true` if the device is using CarPlay.
-
-### UIImage+Extensions
-Provides methods for resizing and rotating `UIImage` instances.
-
-- **File**: `Sources/Viothun/UIKit/UIImage+Extensions.swift`
-- **Available Functions**:
-  - `resized(withPercentage:isOpaque:)`: Resize the image by a given percentage.
-  - `rotated(byDegrees:)`: Rotate the image by a specified number of degrees.
-
----
-
-## 5. Tests
-
-- **Tests for Viothun components**: Located in the `Tests/ViothunTests` directory.
-
----
-
-This README provides a structured and detailed explanation of the components in your package, organized in categories like `Combine`, `Services`, `SwiftUI`, and `UIKit`, with links to the relevant files.
+- **File**: [`Sources/Viothun/UIKit/UIDevice+Extensions.swift`](https://github.com/username/repository/blob/main/Sources/Viothun/UIKit/UIDevice+
